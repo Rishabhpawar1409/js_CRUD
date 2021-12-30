@@ -1,0 +1,60 @@
+
+body{
+    background-color: rgb(203, 245, 66);
+}
+#btnAdd{
+    background-color: orchid;
+    border: 1px solid black;
+    padding:3px;
+    border-radius: 5px;
+}
+
+#btnAdd:hover{
+    background-color: orchid;
+    border: 1px solid black;
+    padding:3px;
+    border-radius: 5px;
+    color:white;
+}
+#btnReset{
+    background-color: orchid;
+    border: 1px solid black;
+    padding:3px;
+    border-radius: 5px;
+}
+#btnReset:hover{
+    background-color: orchid;
+    border: 1px solid black;
+    padding:3px;
+    border-radius: 5px;
+    color:white;
+}
+#editBtn{
+    background-color:cyan;
+    border: 1px solid black;
+    padding:3px;
+    border-radius: 5px;
+}
+#editBtn:hover{
+    background-color:cyan;
+    border: 1px solid black;
+    padding:3px;
+    border-radius: 5px;
+    color:yellow;
+}
+#del{
+    background-color:tomato;
+    border: 1px solid black;
+    padding:3px;
+    border-radius: 5px;
+}
+#del:hover{
+    background-color:tomato;
+    border: 1px solid black;
+    padding:3px;
+    border-radius: 5px;
+    color:thistle;
+}
+.Line{
+    border: 1px solid black;
+}

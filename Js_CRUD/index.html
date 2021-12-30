@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishabh Pawar</title>
+</head>
+<body>
+    <h1>CRUD OPERATION!</h1>
+    <hr class = "Line">
+    <br>
+        <input type="text" id = "nameInput" placeholder="Name">
+        <input type="text" id = "subjectInput" placeholder="Language/Framework">
+   
+    <button id = "btnAdd">ADD</button>
+    <button id="btnReset">RESET</button>    
+    <br>
+    <br>
+
+    <table id ="list" border = 1 cellspacing = 0 cellpadding = 10>
+        <thead>
+            <tr>
+                <th class="order">S.No</th>
+                <th class="name">Name</th>
+                <th class="subject">Subject</th>
+                <th class="action">Action</th>
+            </tr>
+           
+        </thead>
+        <tbody id = "data"></tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
